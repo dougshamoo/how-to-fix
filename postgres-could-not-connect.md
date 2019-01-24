@@ -26,6 +26,7 @@ The insanely simple solution:
 
 In my case:
 ```sh
-/usr/local/opt/postgresql/bin/postgres
+# probably didn't need to specify the data folder here, but had multiples because I backed it up just in case
+/usr/local/opt/postgresql@10/bin/postgres -D /usr/local/var/postgres
 ```
-Then press ⌘+C
+Then press `⌘+C`
